@@ -24,6 +24,9 @@
     font-family: 'DM Sans' !important;
 }
 
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* Helper & component  */
 .btn-theme {
