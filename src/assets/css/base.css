@@ -1,0 +1,127 @@
+/* smk koding use DM Sans */
+/* Fonts Configuration */
+:root {
+    --font-small: 0.8rem;
+    --font-standard: 1rem;
+    --font-medium: 1.7rem;
+    --font-big: 2.3rem;
+    --font-tagline: 3.4rem;
+    --theme-color: #3a10e5;
+    --theme-color-light: hsl(252, 87%, 52%);
+    --theme-color-darker: hsl(252, 87%, 40%);
+    --white-blue: #f0f3ff;
+    --yellow: #facb3b;
+}
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid green; */
+    font-family: 'DM Sans' !important;
+}
+
+/* Helper & component  */
+.btn-theme {
+    display: inline-block;
+    background-color: var(--theme-color);
+    color: #fff;
+    border: none;
+    padding: .8rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .3px;
+    cursor: pointer !important;
+    border-radius: 4px;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-theme-outline {
+    display: inline-block;
+    background-color: #fff;
+    color: var(--theme-color);
+    border: none;
+    padding: .4rem 1.25rem;
+    border: 2px solid var(--theme-color);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer !important;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.btn-theme-outline:hover {
+    background-color: var(--theme-color);
+    color: #fff;
+
+}
+
+.btn-theme:hover {
+    background-color: var(--theme-color-light);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-theme {
+    color: var(--theme-color);
+}
+
+
+.text-tagline {
+    font-size: var(--font-tagline);
+    font-weight: 600;
+}
+
+.bg-white-blue {
+    background-color: var(--white-blue);
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.fs-7 {
+    font-size: var(--font-small);
+}
+
+/* Margin helper */
+.mt--1 {
+    margin-top: -.2rem;
+}
+
+.text-header-section {
+    font-weight: 600;
+    letter-spacing: .4px;
+    color: rgb(18, 0, 22);
+}
+
+section {
+    padding: 6.25em 0;
+}
+
+/* Desktop */
+@media (max-width: 1000px) {}
+
+/* Tablet */
+@media (max-width: 768px) {
+    section {
+        padding: 6.2rem 1.2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 628px) {}
