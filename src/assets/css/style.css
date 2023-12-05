@@ -47,7 +47,7 @@
 }
 
 .navbar-custom ul li.active .arrow-icon {
-    fill: #3a10e5;
+    fill: #3a10e5 !important;
 }
 
 .hamburger-menu {
@@ -133,7 +133,7 @@
 
 /* Banner section */
 section#banner {
-    height: 768px;
+    height: 820px;
 }
 
 section#banner img.img-banner {
@@ -231,11 +231,102 @@ section#bennefit-page {
 
 
 
+/* Promotion */
+#promotion {
+    padding: 2rem 0rem !important;
+    margin: 3rem 0;
+}
 
 
 
+/* Category */
 
 
+.card-category {
+    display: flex;
+    width: 275px;
+    padding: .6rem 1.2rem .6rem 1rem;
+    justify-content: start;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 2.25rem;
+    gap: 1.25rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.card-category .card-category-image {
+    background-color: var(--white-blue);
+    width: 72px;
+    padding: .2rem;
+    height: 70px;
+    display: flex;
+    height: 100%;
+
+}
+
+.card-category .card-category-image img {
+    width: 40px;
+    margin: auto;
+
+}
+
+#category .explore-button {
+    margin-top: 6rem !important;
+}
+
+
+/* Banner promo skill team */
+#banner-promo .row {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 500px;
+    padding: 1.2rem 0;
+
+
+}
+
+#event .card-event {
+    margin: 0 auto;
+}
+
+#event .card-event .card-event-body .card-event-date .date {
+    display: flex;
+    flex-direction: column;
+
+    border-right: 2px solid #ddd;
+    padding-right: .5rem;
+
+}
+
+#event .card-event .location>img {
+    width: 15px;
+}
+
+#event .card-event .card-event-thumbnail>img {
+    width: 100%;
+}
+
+
+/* Footer */
+#footer {
+    margin-top: 5rem;
+    padding: 5.25rem 0 1.2rem 0;
+}
+
+#footer .mt-footer {
+    margin-top: 4rem;
+}
+
+#footer a:hover {
+    color: hsl(225, 6%, 90%);
+}
+
+#footer a,
+#footer p {
+    color: #b5b7bd;
+    text-decoration: none;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -250,7 +341,6 @@ section#bennefit-page {
 }
 
 @media only screen and (max-width: 768px) {
-
 
     .navbar-custom .navbar-image img {
         width: 3.25rem !important;
@@ -269,6 +359,10 @@ section#bennefit-page {
 
     section#banner img.img-banner {
         max-width: 285px;
+    }
+
+    #footer .mt-footer {
+        margin-top: .5rem !important;
     }
 }
 
